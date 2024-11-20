@@ -5,7 +5,7 @@ CXX_FLAGS = -std=c++17 -O2
 CUDA_FLAGS = -O2
 
 # Archivos fuente
-SRC = src/main.cpp src/prefix_sum_cpu.cpp src/prefix_sum_gpu.cu
+SRC = main.cpp prefix_sum_cpu.cpp prefix_sum_gpu.cu
 
 # Nombre del ejecutable
 TARGET = prog
